@@ -25,12 +25,12 @@
 </head>
 
 <body>
-<div class="page home">
+<div class="page lists">
   <header class="header">
     <div class="container-fluid bg-light">
       <nav class="navbar navbar-expand-lg navbar-light sticky-top" aria-label="Navbar">
         <div class="container">
-          <a class="navbar-brand order-1" href="#">ToDoList</a>
+          <a class="navbar-brand order-1" href="./index.html">ToDoList</a>
 
           <div class="collapse navbar-collapse order-5 order-lg-2" id="navbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -62,39 +62,65 @@
 
   <main class="main">
     <div class="container">
-      <div class="banner row">
-        <img class="banner-img" src="./img/banner.jpg" alt="banner">
+      <div class="title">
+        <h1>Ваши списки дел</h1>
+        <a class="js-create-new-list create-new-list btn btn-primary" href="#" role="button">+ новый список</a>
       </div>
-
-      <section class="advantages row gx-sm-3">
-        <div class="col-sm my-3 my-sm-0">
-          <div class="card">
-            <img src="./img/todo-list.png" class="card-img-top" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Преимущество 1</h5>
-              <p class="card-text">Описание преимущества</p>
-            </div>
+      <div class="todo-lists">
+        <div class="todo-lists-item card">
+          <div class="card-body">
+            <div class="card-title">Список 1</div>
+            <ul class="card-text">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              ...
+            </ul>
+            <a href="./list-item.html" class="card-link">Изменить</a>
           </div>
         </div>
-        <div class="col-sm my-3 my-sm-0">
-          <div class="card">
-            <img src="./img/todo-list.png" class="card-img-top" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Преимущество 2</h5>
-              <p class="card-text">Описание преимущества</p>
-            </div>
+        <div class="todo-lists-item card">
+          <div class="card-body">
+            <div class="card-title">Список 2</div>
+            <ul class="card-text">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+            <a href="./list-item.html" class="card-link">Изменить</a>
           </div>
         </div>
-        <div class="col-sm my-3 my-sm-0">
-          <div class="card">
-            <img src="./img/todo-list.png" class="card-img-top" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Преимущество 3</h5>
-              <p class="card-text">Описание преимущества</p>
-            </div>
+        <div class="todo-lists-item card">
+          <div class="card-body">
+            <div class="card-title">Список 3</div>
+            <ul class="card-text">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              ...
+            </ul>
+            <a href="./list-item.html" class="card-link">Изменить</a>
           </div>
         </div>
-      </section>
+        <div class="todo-lists-item card">
+          <div class="card-body">
+            <div class="card-title">Список 4</div>
+            <ul class="card-text">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              ...
+            </ul>
+            <a href="./list-item.html" class="card-link">Изменить</a>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -103,7 +129,7 @@
     <nav class="navbar navbar-light bg-light" aria-label="Navbar-bottom">
       <div class="container flex-sm-row flex-column">
 
-        <a class="navbar-brand" href="#">ToDoList</a>
+        <a class="navbar-brand" href="./index.html">ToDoList</a>
 
         <ul class="navbar-nav flex-sm-row justify-content-center my-4 my-sm-0">
           <li class="nav-item">

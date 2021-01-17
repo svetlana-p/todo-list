@@ -17,6 +17,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -27,7 +28,7 @@
 <body>
 <div class="page list-item">
   <header class="header">
-    <div class="container-fluid bg-light">
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light sticky-top" aria-label="Navbar">
         <div class="container">
           <a class="navbar-brand order-1" href="./index.html">ToDoList</a>
@@ -35,10 +36,10 @@
           <div class="collapse navbar-collapse order-5 order-lg-2" id="navbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">О нас</a>
+                <a class="nav-link" href="./information.html">О нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Цены</a>
+                <a class="nav-link" href="./information.html">Возможности</a>
               </li>
             </ul>
           </div>
@@ -63,13 +64,13 @@
   <main class="main">
     <div class="container">
       <div class="title">
-        <h1>Редактировать</h1>
+        <h1>Создать или изменить список</h1>
       </div>
       <div class="todo-list card bg-light">
           <div class="todo-list-title card-header">Название</div>
           <ul class="list-group list-group-flush">
-            <li class="todo-list-item list-group-item">
-              <span class="todo-list-item-checkbox"></span>
+            <li class="todo-list-item todo-list-item--done list-group-item">
+              <span class="todo-list-item-checkbox"><i class="bi-check2"></i></span>
               <span class="todo-list-item-text">1</span>
             </li>
             <li class="todo-list-item list-group-item">
@@ -80,8 +81,8 @@
               <span class="todo-list-item-checkbox"></span>
               <span class="todo-list-item-text">3</span>
             </li>
-            <li class="todo-list-item list-group-item">
-              <span class="todo-list-item-checkbox"></span>
+            <li class="todo-list-item todo-list-item--done list-group-item">
+              <span class="todo-list-item-checkbox"><i class="bi-check2"></i></span>
               <span class="todo-list-item-text">4</span>
             </li>
             <li class="todo-list-item list-group-item">
@@ -98,7 +99,7 @@
             </li>
             <li class="todo-list-item list-group-item">
               <span class="todo-list-item-checkbox"></span>
-              <span class="todo-list-item-text">&nbsp;</span>
+              <span class="todo-list-item-text">+ добавить</span>
             </li>
           </ul>
         </div>
@@ -114,10 +115,10 @@
 
         <ul class="navbar-nav flex-sm-row justify-content-center my-4 my-sm-0">
           <li class="nav-item">
-            <a class="nav-link px-3" href="#">О нас</a>
+            <a class="nav-link px-3" href="./information.html">О нас</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" href="#">Цены</a>
+            <a class="nav-link px-3" href="./information.html">Возможности</a>
           </li>
         </ul>
 
